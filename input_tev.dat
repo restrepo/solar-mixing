@@ -1,0 +1,10 @@
+100000      ! ievmax : number of events to be generated    10000
+2          ! mssmrp: 0 for SM, 1 for SPheno.spc, 2 for SPhenoRP.spc    
+39         ! msel: you choose the process.: 0, or full MSSM: 39, or...in our case 39
+0          ! NPDFLIBS: 0: DEFAULT PYTHIA, 1: PDFLIB 
+14000.D0   ! dsqrt(s)=2000.d0
+'lhc'      ! cuts selection
+0.27       ! SM total cross section
+100        ! luminosity (fb^-1)
+0          ! histograms 0: no; 1: yes
+41           !1203391118 ! seed for pythia random number generation.0 for time(). 18 !25 muevt,33 tauevt;MBM=26
